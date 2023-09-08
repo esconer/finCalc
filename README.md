@@ -1,13 +1,11 @@
 # fincalc
 
-```markdown
-# Finance Python CLI Programs
 
-Welcome to the Finance Python CLI Programs repository! In this repository, I will be developing various Python command-line programs related to finance. These programs will cover a range of finance-related topics and may include calculations, analysis, and data manipulation.
+Welcome to the finCalc repository! In this repository, I will be developing various Python command-line programs related to finance. These programs will cover a range of finance-related topics and may include calculations, analysis, and data manipulation.
 
 ## Table of Contents
 
-- [Introduction](#finance-python-cli-programs)
+- [Introduction](#fincalc)
 - [Getting Started](#getting-started)
 - [Programs](#programs)
 - [Future Plans](#future-plans)
@@ -72,5 +70,5 @@ Please follow our [Contributing Guidelines](CONTRIBUTING.md) for more details.
 This project is licensed under the [MIT License](LICENSE), which means you are free to use and modify the code as long as you provide appropriate attribution and include the license text with your code.
 
 Feel free to explore the programs and use them for your finance-related tasks. If you have any questions or suggestions, don't hesitate to reach out. Happy coding!
-```
+
 
