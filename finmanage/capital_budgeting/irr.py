@@ -1,4 +1,4 @@
-# from npv import *
+from npv import *
 
 # cashflow=[24000,8000,4000,20000]
 # initial=44000
