@@ -8,7 +8,7 @@
 def uniform_cashflow():
    initial = int(input("what is your initial investment?\n--> "))
    profit_b_tax= int(input("what is your profit before excluding tax?\n--> "))
-   dep=int(input('what is your annual depreciation?\n'))
+   dep=int(input('what is your annual depreciation?\n--> '))
    tax_rate= int(input('what is the tax rate?\n (e.g. 40 it will mean 40%)\n--> '))
    profit_a_tax= profit_b_tax*(1-(tax_rate/100))
    annual_cashinflow=profit_a_tax-dep
@@ -19,7 +19,7 @@ def uniform_cashflow():
 
 def non_uniformcashflow():
    initial = int(input("what is your initial investment?\n--> "))
-   dep=int(input('what is your annual depreciation?\n'))
+   dep=int(input('what is your annual depreciation?\n--> '))
    tax_rate= int(input('what is the tax rate?\n (e.g. 40 it will mean 40%)\n--> '))
    years =int(input("How many years of cash flows?\n"))
    profit_b_tax= []
@@ -59,7 +59,7 @@ def non_uniformcashflow():
 #    cashflows.append(cashflow) 
 
 def main():
-   is_uniform_cashflow= input("Do you have a uniform cashflow form the project?\n type 'y' if Yes type 'n' if No\n-->")
+   is_uniform_cashflow= input("Do you have a uniform cashflow form the project?\n type 'y' if Yes type 'n' if No\n--> ")
    if is_uniform_cashflow=="y":
       uniform_cashflow()
    else:

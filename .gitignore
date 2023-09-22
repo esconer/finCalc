@@ -1,1 +1,3 @@
-/test
+test
+finmanage\capital_budgeting\__pycache__
+capital_budgeting/*.ipynb
