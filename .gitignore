@@ -1,3 +1,4 @@
 test
-finmanage\capital_budgeting\__pycache__
+__pycache__
 capital_budgeting/*.ipynb
+.vscode
